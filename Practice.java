@@ -8,6 +8,10 @@ public class Practice {
         long money = scan.nextLong();
         bank.setMoney(money);
         System.out.println("" + bank.getMoney() + "");
-
+        GeographyTeacher teacher = new GeographyTeacher();
+        System.out.println("Урок начинае с фразы: " + teacher.startLesson());
+        GymTeacher teacher1 = new GymTeacher();
+        System.out.println("Учитель физкультуры говорит: ");
+        teacher1.startLesson();
     }
 }
